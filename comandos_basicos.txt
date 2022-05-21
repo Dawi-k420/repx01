@@ -39,3 +39,6 @@ diff - Muestra cambios entre commits, confirmación y árbol de trabajo, etc.
     los cambios resultantes de una combinación, los cambios entre dos objetos blob o los 
     cambios entre dos archivos en el disco.
 
+reset - Restablece el HEAD actual al estado especificado.
+
+rm - Elimina archivos del árbol de trabajo y del índice.
