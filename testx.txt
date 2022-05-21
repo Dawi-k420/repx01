@@ -1,1 +1,7 @@
-vida extra 1+!
+vidaa extra +1!!!  --> total de vidas 3
+
+desconf --> -2 300s
+
+plaz --> +1 0s
+
+
