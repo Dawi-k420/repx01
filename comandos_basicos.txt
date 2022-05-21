@@ -1,3 +1,34 @@
         APUNTES SOBRE GIT       20/05/2022
         -----------------
 
+init - Crea un repositorio Git vacío o reinicializa uno existente.
+    This command creates an empty Git repository - basically a .git directory with subdirectories 
+    for objects, refs/heads, refs/tags, and template files. An initial branch without any 
+    commits will be created (see the --initial-branch option below for its name).
+
+status - Muestra el estado del árbol de trabajo y la rama donde se esta trabajando.
+    Muestra rutas que tienen diferencias entre el árbol de trabajo y el archivo de índice, 
+    y rutas en el árbol de trabajo que Git no rastrea. Se usa para obtener un resumen de 
+    qué archivos tienen cambios que se preparan para la próxima confirmación.
+
+add - Agrega contenido de archivo al índice.
+    Este comando actualiza el índice utilizando el contenido actual que se encuentra en el árbol de trabajo, 
+    para preparar el contenido preparado para la próxima confirmación. 
+    El "índice" contiene una instancia del contenido del árbol de trabajo, y es esta instancia la que se toma 
+    como el contenido de la próxima confirmación. Por lo tanto, después de realizar cambios 
+    en el árbol de trabajo y antes de ejecutar el comando de confirmación "commit", debe usar 
+    el comando agregar "add" para agregar archivos nuevos o modificados al índice.
+
+rm - Elimina archivos del árbol de trabajo y del índice.
+    Elimina los archivos que coincidan con pathspec del índice o del árbol de trabajo y el índice. 
+    git rm no eliminará un archivo solo de su directorio de trabajo. (No existe la opción de eliminar un 
+    archivo solo del árbol de trabajo y, sin embargo, mantenerlo en el índice; use /bin/rm si desea hacerlo).
+
+commit - Registra cambios en el repositorio.
+    Crea una nueva confirmación que contenga el contenido actual del índice y el mensaje de registro dado que 
+    describa los cambios. La nueva confirmación es un elemento secundario directo de HEAD, generalmente 
+    la punta de la rama actual, y la rama se actualiza para apuntar a ella.
+
+log - Muestra los registros de confirmación.
+
+show - Muestra varios tipos de objetos (blobs, trees, tags and commits).
