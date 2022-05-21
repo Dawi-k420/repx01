@@ -40,5 +40,19 @@ diff - Muestra cambios entre commits, confirmación y árbol de trabajo, etc.
     cambios entre dos archivos en el disco.
 
 reset - Restablece el HEAD actual al estado especificado.
+    --soft: Borramos todo el historial y los registros de Git pero guardamos los cambios que 
+        tengamos en Staging, así podemos aplicar las últimas actualizaciones a un nuevo commit.
+    --hard: Borra Toda la información de los commits y del 
+        área de staging se borra del historial.
 
 rm - Elimina archivos del árbol de trabajo y del índice.
+    --cached: Elimina los archivos de nuestro repositorio local y del área de staging, 
+        pero los mantiene en nuestro disco duro.
+    --force: Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por 
+        lo que podemos acceder al registro de la existencia de los archivos, de modo que 
+        podremos recuperarlos si es necesario.
+
+checkout - Cambiar ramas o restaurar archivos de árbol de trabajo.
+    Actualiza archivos en el árbol de trabajo para que coincidan con la versión en el índice o 
+    el árbol especificado. Si no se proporcionó una especificación de ruta, git 
+    checkout también actualizará HEAD para establecer la rama especificada como la rama actual.

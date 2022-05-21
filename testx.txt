@@ -7,3 +7,12 @@ plaz --> +1 0s == 0s
 mod --> +0.5 70s < 120s
 
 uff --> +2	0s
+
+
+“Acepta lo que no puedes cambiar, ten la valentía 
+de cambiar lo que puedes y ten la sabiduría 
+para reconocer la diferencia”
+
+frase de la madre de barri alen
+
+recordatorio: 123456x
