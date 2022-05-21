@@ -1,8 +1,0 @@
-vidaa extra +1!!!  --> total de vidas 3
-
-desconf --> -2 300s =< 1200s
-
-plaz --> +1 0s == 0s
-
-mod --> +0.5 70s < 120s
-
