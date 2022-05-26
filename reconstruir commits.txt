@@ -1,0 +1,7 @@
+Remendar un commit con amend puede modificar el commit más reciente (enmendar) en la misma rama. Lo ejecutamos así:
+
+git add -A # Para hacer uso de amend los archivos deben de estar en staging
+git commit --amend # Remendar último commit
+git shortlog -sn
+git blame <archivo>- interaccion de archivos 
+git branch -a "se muestra las ramas"

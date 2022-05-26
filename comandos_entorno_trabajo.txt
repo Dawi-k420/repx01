@@ -1,0 +1,1 @@
+Git Cherry-pick es un comando que permite tomar uno o varios commits de otra rama sin tener que hacer un merge completo
