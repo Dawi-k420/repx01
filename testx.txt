@@ -4,15 +4,17 @@ desconf --> -2 300s =< 1200s
 
 plaz --> +1 0s == 0s
 
-mod --> +0.5 70s < 120s
+mod --> +1 70s < 120s
 
 uff --> +2	0s
 
+vida actual --> 6?!!!!!
 
 “Acepta lo que no puedes cambiar, ten la valentía 
 de cambiar lo que puedes y ten la sabiduría 
 para reconocer la diferencia”
 
+<<<<<<< HEAD
 Frase de la Madre de "Barry Allen" ufff me equivoque el nombre 
 
 recordatorio: 123456x.B
@@ -22,3 +24,10 @@ modificacion con usuario master
 
 
 texto complementario 1245
+=======
+frase de la madre de barry allen
+
+recordatorio: 123456x123456
+
+texto agregado con branch hotfix !!! 
+>>>>>>> 4367e0d (modificacion de nombre y datos en hotfix)
